@@ -1,0 +1,14 @@
+[project]
+name = "neurobridge-gaze"
+version = "0.1.0"
+description = "Gaze-based visual context acquisition module for NeuroBridge MVP"
+
+requires-python = ">=3.10,<3.13"
+
+dependencies = [
+    "opencv-python",
+    "numpy",
+    "requests"
+]
+
+[tool.uv]
